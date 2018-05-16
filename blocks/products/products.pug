@@ -1,0 +1,15 @@
+mixin products()
+  +b.DIV.products
+    +e.DIV.item
+      +b.DIV.product
+        +e.DIV.wrap
+          +e.IMG.img(src="img/icons/prod1.svg")
+          +e.H3.title Goods
+          +b.UL.product-price
+            +e.LI.item
+              +e.SPAN.cost $150 &minus; 
+              | 1000 items
+            +e.LI.item
+              +e.SPAN.cost $250 &minus; 
+              | 1000 items
+          +b.A.btn(href="#" class="--product") Learn More
